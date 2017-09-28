@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.21005.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BT3SSL_UDP_Server", "BT3SSL_UDP_Server\BT3SSL_UDP_Server.csproj", "{EBD7ED6D-CA71-42FD-8B14-9F2EA9E6044B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BT3SSL_UDP_Client", "BT3SSL_UDP_Client\BT3SSL_UDP_Client.csproj", "{F28CE31C-A872-4A3E-8E16-F73B4923BB03}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EBD7ED6D-CA71-42FD-8B14-9F2EA9E6044B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EBD7ED6D-CA71-42FD-8B14-9F2EA9E6044B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EBD7ED6D-CA71-42FD-8B14-9F2EA9E6044B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EBD7ED6D-CA71-42FD-8B14-9F2EA9E6044B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F28CE31C-A872-4A3E-8E16-F73B4923BB03}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F28CE31C-A872-4A3E-8E16-F73B4923BB03}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F28CE31C-A872-4A3E-8E16-F73B4923BB03}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F28CE31C-A872-4A3E-8E16-F73B4923BB03}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
