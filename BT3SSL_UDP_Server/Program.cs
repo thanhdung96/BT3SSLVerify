@@ -1,8 +1,5 @@
 ﻿using System;
-using System.Net.Sockets;
-using System.Net;
 using System.Text;
-using System.Security.Cryptography;
 
 namespace BT3SSL_UDP_Server
 {
@@ -10,6 +7,9 @@ namespace BT3SSL_UDP_Server
 	{
 		static void Main(string[] args)
 		{
+			Encrypting en = new Encrypting();
+
+			Console.WriteLine(Encoding.ASCII.GetString(en.decrypt(en.encrypt("vpdoan", "duongthanhdung96"), Encoding.ASCII.GetBytes("duongthanhdung96"))));
 		}
 	}
 }
